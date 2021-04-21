@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  .mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 0px 20px;
+  }
+  .mainTitle {
+  text-align: center;
+  margin:20px 0px;
+  line-height: 40px;
+  font-size: 34px;
+  }
+  .containers {
+  width: 50%;
+  height: 100vh;
+  }
+  .rBorder {
+  border-right: 2px solid #888;
+  }
+  .input {
+  border: 2px solid #000;
+  width: 75%;
+  height: 35px;
+  margin-right: 10px;
+  padding: 0px 15px;
+  }
+  .contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  }
+  .urlText {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  }
+  .btn {
+  border: 2px solid #000;
+  background-color: unset;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  height: 39px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  cursor: pointer;
+  }
+  .crossIcon {
+  color: #f44336;
+  padding-left: 10px;
+  font-size: 16px;
+  }
+  .arrowIcon {
+  font-size: 30px;
+  color: #000;
+  float: right;
+  padding-right: 5px;
+  }
+  .scrollbar
+  {
+  overflow-y: auto;
+  padding-right: 50px;
+  height: calc(100vh - 220px);
+  margin-bottom: 10px;
+  }
+  #style-1::-webkit-scrollbar-track
+  {
+  background-color: #fff;
+  }
+  #style-1::-webkit-scrollbar
+  {
+  width: 6px;
+  background-color: #F5F5F5;
+  }
+  #style-1::-webkit-scrollbar-thumb
+  {
+  background-color: #ccc;
+  }
+  .node {
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  }
+  .node:hover {
+  cursor: pointer;
+  }
+  .info, .node {
+  padding: 5px 0px;
+  font: 14px Helvetica, Arial, sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 20px;
+  margin: 0;
+  width: 100%;
+  }
+  .node:hover {
+  background-color: #f2f2f2;
+  }
+  
