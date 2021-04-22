@@ -9,7 +9,7 @@ const NoteContainer = () => {
         dispatch({type:"UPDATE_NOTEBOOK",payload:{...book,content:e.target.value}})
     }
     const updateNotebookName = (e,book) => {
-        dispatch({type:"UPDATE_NOTEBOOK",payload:{...book,name:e.target.value}})
+        dispatch({type:"UPDATE_NOTEBOOK",payload:{...book,value:e.target.value}})
     }
     
     const deleteNotebook = (book) => {
@@ -24,8 +24,8 @@ const NoteContainer = () => {
                     notebooks.map(book=>{
                            return (
                                 <>
-                                    <div className="notebook-heading">{"#"}<input text="text" className="node" value={book.name} onChange={(e)=>updateNotebookName(e,book)}/><span onClick={() => deleteNotebook(book)} className="crossIcon">&#10005;</span></div>
-                                    <textarea rows="10" onChange={(e)=>updateNotebookContent(e,book)} value={book.content}></textarea>        
+                                    <div className="notebook-heading">{"#"}<input text="text" className="node" value={book.value} onChange={(e)=>updateNotebookName(e,book)}/><span onClick={() => deleteNotebook(book)} className="crossIcon">&#10005;</span></div>
+                                    <textarea className="text-content" rows="10" onChange={(e)=>updateNotebookContent(e,book)} value={book.content}></textarea>        
                                 
                                 </>
                            );

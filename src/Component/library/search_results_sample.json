@@ -1,0 +1,29 @@
+{
+    "id": "library", 
+    "nodes": [
+        {
+            "id": "4f2a899e3fad458eb24c237c0d8a94c0", 
+            "value": "Why Uber Built Its Own Conversational AI Platform", 
+            "content": "Conversational applications are becoming a common trend in the software industry. Natural language understanding ( NLU ) is one of the areas of artificial intelligence that has seen the greatest adoption into mainstream applications. While the process of building simple, domain-specific chatbots has gotten way easier, building large scale, multi-agent conversational applications remains a massive challenge. Uber might be considered one of the world’s prototypical environments for the implementation of conversational agents. While, at first glimpse, it might have been surprising that Uber decided to implement their own conversational AI platform, it all makes sense once you factor in the scale of the scenarios.", 
+            "image_url": "https://miro.medium.com/max/640/1*WjeWi0vmOPXtSNH-Na8T7Q.png"
+        }, 
+        {
+            "id": "510e75258e954b0383aed2cb90a5197d",
+            "value": "How Uber Uses Machine Learning To Improve Data Quality", 
+            "content": "Instead of hardcoding rules to enforce the quality of data, wouldn’t it be possible to leverage machine learning to learn the key pattern of a dataset and infer the relevant rules? This has been the approach followed by platforms like Trifacta, Paxata, Alation and several new vendors. DQM relies on statistical modeling to detect the most destructive anomalies in data sources and alert the relevant parties. DQM transforms any data table into a multi-dimensional time series that can be analyzed for historical pattern detections. The solution combines a clever statistical methodology with a simple implementation.",
+            "image_url": ""
+        }, 
+        {
+            "id": "a26546e5bccc4b25b186c21042d09c14", 
+            "value": "Inside the Architecture Powering Data Quality Management at Uber",
+            "content": "Data Quality Monitor implements novel statistical methods for anomaly detection and quality management in large data infrastructures. Small inconsistencies or missing values can have a drastic negative impact on the training of machine learning models. The DQM solution combines a clever statistical methodology with a simple implementation. Uber’s DQM starts by condensing the time series dataset into a representation that is easier to analyze. The next step in the process is to detect anomalies. After the anomaly detection process, DQm needs to score the severity of the anomalies in order to alert the relevant parties.", 
+            "image_url": null
+        }, 
+        {
+            "id": "41214a34e3584603bd73edd3853493b8", 
+            "value": "Uber Open Sourced Plato to Perform Natural Language Research at Scale", 
+            "content": "The framework facilitates research across different NLP areas from language generation to translation. From basic chatbot to sophisticated digital assistants, conversational applications are becoming a common trend in the software industry. While the process of building simple, domain-specific chatbots has gotten way easier, building large scale, multi-agent conversational Applications remains a massive challenge. PRDS supports interactions with human and simulated users. Each individual component of the platform can be trained online of offline using the machine learning frameworks supported by PRDS which included TensorFlow, PyTorch or Uber’s own Ludwig.", 
+            "image_url": null
+        }
+    ]
+}

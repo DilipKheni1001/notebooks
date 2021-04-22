@@ -9,7 +9,7 @@ const INIT_STATE = {
 
             case "UPDATE_NOTEBOOK":
                 return {...state,notebooks:state.notebooks.map(book=>
-                    book.id == action.payload.id ? {...book,name:action.payload.name,content:action.payload.content} : book
+                    book.id == action.payload.id ? {...book,value:action.payload.value,content:action.payload.content} : book
                 )};
             
             case "DELETE_NOTEBOOK":
