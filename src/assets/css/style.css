@@ -119,3 +119,10 @@ body{
 .notebook-heading{
   display: flex;
 }
+.input-box {
+  width: 100%;
+  border: 0;
+}
+.input-box:focus {
+  outline: 0;
+}
