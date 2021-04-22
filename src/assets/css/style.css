@@ -72,7 +72,7 @@ body{
   .scrollbar
   {
   overflow-y: auto;
-  padding-right: 50px;
+  /* padding-right: 50px; */
   height: calc(100vh - 220px);
   margin-bottom: 10px;
   }
@@ -181,4 +181,7 @@ button.addnode-btn {
 }
 textarea.text-content {
   border: 0;
+}
+#style-1 {
+  width: 75%;
 }
