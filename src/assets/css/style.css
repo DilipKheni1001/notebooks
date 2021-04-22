@@ -122,6 +122,12 @@ body{
 }
 .main-box {
   border: 1px solid;
+  width: 90%;
+}
+.main-div {
+  padding: 0 35px;
+  display: flex;
+  padding-top: 15px;
 }
 * {
   box-sizing: border-box;
@@ -135,10 +141,41 @@ button.notebook-btn {
   border: 0;
   margin-top: 10px;
 }
+.notebook-footer {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.notebook-footer .btn-box {
+  font-weight: normal;
+  border: 2px solid;
+  padding: 5px 10px;
+}
+.span-box{
+  font-size: 24px;
+  font-weight: inherit;
+}
+button.btn-box {
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+button.addnode-btn {
+  background: transparent;
+  border: 0;
+  font-size: 30px;
+  font-weight: inherit;
+  width: 10%;
+  align-self: self-start;
+}
 .input-box:focus {
   outline: 0;
 }
-.notebook-heading.crossIcon {
+.text-content:focus {
+  outline: 0;
+}
+.notebook-heading .crossIcon {
   margin-top: 10px;
   margin-right: 10px;
 }

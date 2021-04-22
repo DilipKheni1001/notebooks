@@ -19,7 +19,7 @@ const NoteContainer = () => {
     return(
         <div className="containers noteContainer">
             <h1 className="mainTitle">Notebooks</h1>
-            <button className="btn-box">+ New Notebook</button>
+            <button className="btn-box"><span className="span-box">+</span> New Notebook</button>
                 {
                     notebooks.map(book=>{
                            return (
@@ -42,8 +42,8 @@ const NoteContainer = () => {
                     })
                 }
                 <div className="notebook-footer">
-                    <button className="btn-box">Share Notebook</button>
-                    <button className="btn-box">Export to PDF</button>
+                    <button className="btn">Share Notebook</button>
+                    <button className="btn">Export to PDF</button>
                 </div>
                 
         </div>
