@@ -19,7 +19,7 @@ const NoteContainer = () => {
     return(
         <div className="containers noteContainer">
             <h1 className="mainTitle">Notebooks</h1>
-            <div>
+            <div className="main-box">
                 {
                     notebooks.map(book=>{
                            return (
