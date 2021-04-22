@@ -19,12 +19,13 @@ const NoteContainer = () => {
     return(
         <div className="containers noteContainer">
             <h1 className="mainTitle">Notebooks</h1>
-            <div className="main-box">
+            <button className="btn-box">+ New Notebook</button>
                 {
                     notebooks.map(book=>{
                            return (
-                                <>
-                                
+                               <div className="main-div">
+                                <button className="addnode-btn">+</button>
+                                <div className="main-box">
                                     <div className="notebook-heading">
                                         <button className="notebook-btn">+ note</button>
                                         <button className="notebook-btn">+ image</button>
@@ -35,11 +36,16 @@ const NoteContainer = () => {
                                     </div>
                                     <textarea className="text-content" rows="10" onChange={(e)=>updateNotebookContent(e,book)} value={book.content}></textarea>        
                                 
-                                </>
+                                </div>
+                                </div>
                            );
                     })
                 }
-            </div>
+                <div className="notebook-footer">
+                    <button className="btn-box">Share Notebook</button>
+                    <button className="btn-box">Export to PDF</button>
+                </div>
+                
         </div>
     );
 }

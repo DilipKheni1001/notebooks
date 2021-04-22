@@ -115,14 +115,33 @@ body{
 .text-content{
   width:100%
 }
-
-.notebook-heading{
+.notebook-heading {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-box {
+  border: 1px solid;
+}
+* {
+  box-sizing: border-box;
 }
 .input-box {
   width: 100%;
   border: 0;
 }
+button.notebook-btn {
+  background: transparent;
+  border: 0;
+  margin-top: 10px;
+}
 .input-box:focus {
   outline: 0;
+}
+.notebook-heading.crossIcon {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+textarea.text-content {
+  border: 0;
 }
